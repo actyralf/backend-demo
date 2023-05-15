@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Wireless Bluetooth Earbuds",
+    "description": "High-quality wireless earbuds with Bluetooth connectivity",
+    "price": 79.99,
+    "quantity": 10,
+    "category": "Electronics"
+  },
+  {
+    "name": "Stainless Steel Mixing Bowl Set",
+    "description": "Set of 3 stainless steel mixing bowls for kitchen use",
+    "price": 34.99,
+    "quantity": 5,
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "The Great Gatsby - Paperback",
+    "description": "Classic novel by F. Scott Fitzgerald",
+    "price": 9.99,
+    "quantity": 15,
+    "category": "Books"
+  },
+  {
+    "name": "Smart LED TV",
+    "description": "55-inch smart LED TV with 4K resolution and built-in streaming apps",
+    "price": 599.99,
+    "quantity": 8,
+    "category": "Electronics"
+  },
+  {
+    "name": "Non-Stick Cookware Set",
+    "description": "Set of 10 non-stick cookware pieces for easy cooking and cleaning",
+    "price": 129.99,
+    "quantity": 3,
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "Harry Potter and the Sorcerer's Stone - Hardcover",
+    "description": "First book in the Harry Potter series by J.K. Rowling",
+    "price": 14.99,
+    "quantity": 12,
+    "category": "Books"
+  },
+  {
+    "name": "Smartphone Tripod Stand",
+    "description": "Adjustable tripod stand for smartphones with remote control",
+    "price": 24.99,
+    "quantity": 20,
+    "category": "Electronics"
+  },
+  {
+    "name": "Air Fryer",
+    "description": "Compact air fryer for healthy and oil-free cooking",
+    "price": 89.99,
+    "quantity": 7,
+    "category": "Home & Kitchen"
+  },
+  {
+    "name": "The Da Vinci Code - Paperback",
+    "description": "Thriller novel by Dan Brown",
+    "price": 11.99,
+    "quantity": 18,
+    "category": "Books"
+  },
+  {
+    "name": "Bluetooth Wireless Speaker",
+    "description": "Portable Bluetooth speaker with high-quality sound",
+    "price": 49.99,
+    "quantity": 15,
+    "category": "Electronics"
+  }
+]

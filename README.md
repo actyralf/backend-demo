@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Backend Topics
 
-## Getting Started
+## SQL vs No-SQL (Document Database)
 
-First, run the development server:
+| SQL                                                                           | No-SQL                                                             |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Stores flat tables (like Excel sheets)                                        | Stores JSON-like documents                                         |
+| Requires fixed schemas                                                        | No schema required                                                 |
+| Ensures referential integrity                                                 | Does **NOT** ensure referential integrity                          |
+| Can scale vertically (by adding more memory, CPU)                             | Can scale horizontally (by adding more machines)                   |
+| Unified query language (SQL) (with "dialects")                                | Proprietary query languages                                        |
+| Use case: highly structured data, many relations, e.g. financial transactions | Use case: huge amount of data, few relations, semi-structured data |
+| Examples: MySQL, Postgres, Oracle, SQL Server                                 | Examples: MongoDB, Couchbase, Amazon DynamoDB                      |
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+[SQL vs. NoSQL Databases: What's the Difference?](https://www.ibm.com/cloud/blog/sql-vs-nosql)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Relationships
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+[A Guide to the Entity Relationship Diagram](https://www.databasestar.com/entity-relationship-diagram/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[Draw DB diagrams](https://dbdiagram.io/)
 
-## Learn More
+## Querying data with MongoDB
 
-To learn more about Next.js, take a look at the following resources:
+[Introduction to the MongoDB Aggregation Framework](https://www.mongodb.com/developer/products/mongodb/introduction-aggregation-framework/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Querying data with SQL
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[Basic SQL Commands](https://www.freecodecamp.org/news/basic-sql-commands/)
 
-## Deploy on Vercel
+## API development
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[REST vs GraphQL](https://dev.to/documatic/rest-api-vs-graphql-1a0n)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Web Sockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+
+## Microservice Architecture
+
+[An Introduction to Microservices](https://medium.com/microservicegeeks/an-introduction-to-microservices-a3a7e2297ee0)
